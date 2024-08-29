@@ -1,0 +1,141 @@
+.main{
+
+
+
+ height: 250px;
+ bottom: 0;
+ position: absolute;
+}
+
+
+.signin{
+    width: 200px;
+    margin-left: 8px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(221, 37, 37);
+    cursor: pointer;
+    transition: 0.15s;
+    border: 0;
+}
+
+
+.signin:hover{
+    opacity: 0.5;
+}
+.signin:active{
+    background-color: white;
+    color: rgb(221, 37, 37);
+    border: solid;
+    border-color: rgb(221, 37, 37);
+}
+    
+.Use{
+    width: 200px;
+    margin-left: 8px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+    transition: 0.15s;
+    border: 0;
+    margin-top: 10px;
+}
+
+
+.Use:hover{
+    opacity: 0.5;
+}
+.Use:active{
+    background-color: white;
+    color: gray;
+    border: solid;
+    border-color: .signin{
+        width: 200px;
+        margin-left: 8px;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 15px;
+        color: white;
+        background-color: rgb(221, 37, 37);
+        cursor: pointer;
+        transition: 0.15s;
+        border: 0;
+    }
+    
+    
+    .signin:hover{
+        opacity: 0.5;
+    }
+    .signin:active{
+        background-color: white;
+        color: rgb(221, 37, 37);
+        border: solid;
+        border-color: gray;
+    };
+}
+
+.iconh{
+    transition: 1s ease;
+    box-shadow: 5px 5px 5px gray;
+    }
+    
+    .iconh:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    }
+
+    /* From Uiverse.io by Voxybuns */ 
+button {
+    /* Variables */
+    --button_radius: 0.75em;
+    --button_color: #e8e8e8;
+    
+    font-size: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: var(--button_radius);
+    background: var(--button_outline_color);
+   
+  }
+  
+  .button_top {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid var(--button_outline_color);
+    border-radius: var(--button_radius);
+    padding: 0.75em 1.5em;
+    background: var(--button_color);
+    color: var(--button_outline_color);
+    transform: translateY(-0.2em);
+    transition: transform 0.1s ease;
+  }
+  
+  button:hover .button_top {
+    /* Pull the button upwards when hovered */
+    transform: translateY(-0.33em);
+  }
+  
+  button:active .button_top {
+    /* Push the button downwards when pressed */
+    transform: translateY(0);
+  }
+
+.child{
+    cursor: pointer;
+}
+  
+
+  body{
+    background-image: linear-gradient(black,rgb(21, 20, 20),black,rgb(21, 20, 20));
+  }
+
+   html {
+    caret-color: red;
+  } 
